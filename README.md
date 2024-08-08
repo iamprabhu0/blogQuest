@@ -18,5 +18,5 @@ python -m app.app
 or
 
 ```bash
-python -m app.app --data-path output.parquet
+python -m app.app --data-path feeds.db
 ```
