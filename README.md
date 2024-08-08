@@ -13,7 +13,7 @@ You can add your desired feeds to the feeds.txt
 ## Launch app
 
 ```bash
-python -m app.app
+python app.py
 ```
 or
 
