@@ -1,0 +1,13 @@
+http://bair.berkeley.edu/blog/feed.xml
+http://benanne.github.io/feed.xml
+http://bjlkeng.github.io/rss.xml
+http://colah.github.io/rss.xml
+http://danluu.com/atom.xml
+http://datacolada.org/feed/
+http://distill.pub/rss.xml
+http://dustintran.com/blog/rss/
+http://fastml.com/atom.xml
+http://healthyalgorithms.wordpress.com/feed/
+http://peterbloem.nl/blog/rss.xml
+http://severelytheoretical.wordpress.com/feed/
+http://transistor-man.com/rss.xml
