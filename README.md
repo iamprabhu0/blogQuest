@@ -1,7 +1,7 @@
 ## Install requirements
 
 ```bash
-pip install -r equiements.txt
+pip install -r requiements.txt
 ```
 
 
