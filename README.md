@@ -1,3 +1,9 @@
+##Install requirements
+```bash
+pip install -r equiements.txt
+```
+
+
 ## Crawl data
 
 By default it'll look for feeds.txt in the currrent directory
