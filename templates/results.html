@@ -2,11 +2,14 @@
 {% block heading %} Search Results - {{ query }} {% endblock %}
 
 {% block content %}
-<body>
-    <ul>
+<div class="max-w-4xl mx-auto p-6 bg-gray-100">
+    <ul class="space-y-4">
         {% for url, score in results.items() %}
-            <li><a href="{{ url }}">{{ url }}</a> - Score: {{ score }}</li>
+        <li class="p-4 bg-white shadow-md rounded-lg">
+            <a href="{{ url }}" class="text-blue-500 hover:underline text-lg block">{{ url }}</a>
+            <span class="text-gray-600">Score: {{ score }}</span>
+        </li>
         {% endfor %}
     </ul>
-</body>
+</div>
 {% endblock %}

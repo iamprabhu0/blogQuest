@@ -4,14 +4,18 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}blogQuest{% endblock %}</title>
-    <link href="{{ url_for('static', path='/css/styles.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <h1>{% block heading %}blogQuest{% endblock %}</h1>
+<body class="flex items-start justify-center min-h-screen bg-gray-100 pt-20">
+    <div class="text-center">
+        <h1 class="text-4xl font-bold mb-8 max-w-xs mx-auto">{% block heading %}blogQuest{% endblock %}</h1>
 
-    {% block content %}
-    {% endblock %}
+        <div class="p-4 bg-white shadow-md rounded-lg" style=" width: 700px;">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
 </body>
 
 </html>
